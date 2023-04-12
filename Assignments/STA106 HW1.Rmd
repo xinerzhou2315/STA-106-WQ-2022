@@ -1,0 +1,108 @@
+---
+title: "STA106 Homework 1"
+author: 
+output:
+  html_document:
+    number_sections: true
+    code_folding: hide
+    toc: yes
+    toc_float: yes
+---
+
+<style type="text/css">
+  body{
+  font-size: 12pt;
+}
+</style>
+  
+```{r}
+# set global options
+knitr::opts_chunk$set(
+  echo = TRUE, # show code 
+  warning = FALSE,  
+  message = FALSE
+  
+) 
+```
+
+
+```{r}
+library(knitr)
+library(kableExtra)
+```
+
+ 
+### 1. {-}
+
+> An economist compiled data on productivity improvements last year for a sample of firms producing electronic computing equipment. The firms were classified according to the level of their average expenditures for research and development in the past three years (low, moderate, high).
+>
+> a. Is this study experimental, observational, or mixed experimental and observational? Why?
+b. Identify all factors, factor levels, and factor-level combinations.
+c. What type of study design is being implemented here?
+d. What is the basic unit of study?
+
+**Solution:**
+ 
+a.
+b.
+c.
+d.
+
+### 2. {-}
+
+> In a study to investigate the effect of color of paper (blue, green, orange) on response rates for questionnaires distributed by the "windshield method" in supermarket parking lots, four supermarket parking lots were chosen in a metropolitan area and 10 questionnaires of each color were assigned at random to cars in the parking lots.
+> 
+> a. Is this study experimental, observational, or mixed? Why?
+b. Identify all factors, factor levels, and factor-level combinations.
+c. What type of study design is being implemented here?
+d. What is the basic unit of study?
+
+**Solution:**
+ 
+
+### 3. {-}
+
+> A rehabilitation center researcher was interested in examining the relationship between physical fitness prior to surgery of persons undergoing corrective knee surgery and the time required in physical therapy until successful rehabilitation. Data on the number of days required for successful completion of physical therapy and the prior physical fitness status (below average, average, above average) were collected.
+> 
+> a. Is this study experimental, observational or mixed? Why?
+b. Identify all factors, factor levels, and factor-level combinations.
+c. What type of study design is being implemented here?
+d. What is the basic unit of study?
+
+**Solution:**
+
+ 
+
+### 4. {-}
+
+> A research laboratory was developing a new compound for the relief of severe cases of hay fever. The amounts of two active ingredients (low, medium, high) in the compound were varied at three levels each using 18 volunteers. Randomization was used in assigning volunteers to each of the treatment combinations. Data were collected on hours of relief.
+> 
+> a. Is this study experimental, observational, or mixed? Why?
+b. Identify all factors. factor levels. and factor-level combinations.
+c. Describe how randomization would be performed in this study.
+d. What type of study design is being implementel here?
+e. What is the basic unit of study'?
+
+**Solution:**
+
+ 
+
+### 5. Suggest an experimental plan for each study and explain why. {-}
+
+> An experiment involving the case hardening of lightweight shafts machined from bars of an alloy was run to study the effects of the amount of chemical agent added to the alloy in a molten state (low, high), the temperature of the hardening process (low, high), and the time duration of the hardening process (low, high). Outcome data measured the hardness of the rods tested. It will be possible to machine 32 bars in the study.
+
+
+**Solution:**
+
+
+
+### 6. Suggest an experimental plan for each study and explain why. {-}
+
+> Assemblers in an electronics firm attach components to a newly developed "board" to be used in automatic-control equipment in manufacturing plants. A study was conducted to determine the effect of sequence of assembling the components (sequence 1, sequence 2 , sequence 3) on the mean time to assemble a board. Potential nuisance factors are sex of the assembler (male, female) and amount of the assembler's prior experience (under 18 months, 18 months or more). Assume that the following assemblers are available for the study: four males with under 18 moths experience, three females with under 18 months experience, five male assemblers with 18 months or more experience, and four females with 18 months or more experience.
+
+
+**Solution:**
+
+
+  
+------
