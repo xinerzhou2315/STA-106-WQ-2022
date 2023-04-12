@@ -1,0 +1,63 @@
+---
+title: "STA106 Homework 2"
+author: 
+output:
+  html_document:
+    number_sections: true
+    code_folding: hide
+    toc: yes
+    toc_float: yes
+---
+
+<style type="text/css">
+  body{
+  font-size: 12pt;
+}
+</style>
+  
+```{r}
+# set global options
+knitr::opts_chunk$set(
+  echo = TRUE, # show code 
+  warning = FALSE,  
+  message = FALSE
+  
+) 
+```
+ 
+# Theory. {-}
+
+### 1 {-}
+
+> Derive the least squares estimates for $\mu_1 \dots \mu_r$.
+
+### 2 (Intuition of F-test) {-}
+
+> - 1. What's $E[MSE]$ 
+- 2.  What's $E[MSTR]$ 
+- 3. Compare the two mean squares (larger or smaller, under what circumstances), what intuition it provides regarding how can we test any difference in treatment means, that is, how does it help to detect any real treatment effects?
+
+# Case Study. {-}
+
+
+> **Productivity improvement.** An economist compiled data on productivity improvements last year for a sample of firms producing electronic computing equipment. The firms were classified according to the level of their average expenditures for research and development in the past three years (low, moderate, high). The results of the study follow (productivity improvement is measured on a scale from 0 to 100 ). Assume that ANOVA model (16.2) is appropriate.
+
+$$
+\begin{array}{llccccccccccc} 
+& & \boldsymbol{j} \\
+\boldsymbol{i} & & \mathbf{1} & \mathbf{2} & \mathbf{3} & \mathbf{4} & \mathbf{5} & \mathbf{6} & \mathbf{7} & \mathbf{8} & \mathbf{9} & \mathbf{1 0} & \mathbf{1 1} & \mathbf{1 2} \\
+\hline 1 & \text { Low } & 7.6 & 8.2 & 6.8 & 5.8 & 6.9 & 6.6 & 6.3 & 7.7 & 6.0 & & & \\
+2 & \text { Moderate } & 6.7 & 8.1 & 9.4 & 8.6 & 7.8 & 7.7 & 8.9 & 7.9 & 8.3 & 8.7 & 7.1 & 8.4 \\
+3 & \text { High } & 8.5 & 9.7 & 10.1 & 7.8 & 9.6 & 9.5 & & & & & &
+\end{array}
+$$
+
+> - 1. Prepare aligned dot plots of the data. Do the factor level means appear to differ? Does the variability of the observations within each factor level appear to be approximately the same for all factor levels?
+- 2. Obtain the fitted values and residuals. Do the residuals sum to zero?
+- 3. Obtaim the analysis of variance table.
+- 4. Test whether or not the mean productivity improvement differs according to the level of research and development expenditures. Control the $\alpha$ risk at .05. State the alternatives, decision rule, and conclusion.
+- 5. What appears to be the nature of the relationship between research and development expenditures and productivity improvement?
+
+ 
+ 
+ 
