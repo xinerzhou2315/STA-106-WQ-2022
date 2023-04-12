@@ -1,0 +1,64 @@
+---
+title: "STA106 Homework 6"
+author: 
+output:
+  html_document:
+    number_sections: true
+    code_folding: hide
+    toc: yes
+    toc_float: yes
+---
+
+<style type="text/css">
+  body{
+  font-size: 12pt;
+}
+</style>
+  
+```{r}
+# set global options
+knitr::opts_chunk$set(
+  echo = TRUE, # show code 
+  warning = FALSE,  
+  message = FALSE
+  
+) 
+```
+ 
+# Case Study. {-}
+
+> **Brainstorming.** A researcher investigated whether brainstorming is more effective for larger groups than for smaller ones by setting up four groups of agribusiness executives, the group sizes being two, three, four, and five, respectively. He also set up four groups of agribusiness scientists, the group sizes being the same as for the agribusiness executives. The researchel gave each group the same problem: "How can Canada increase the value of its agricultural exports?" Each group was allowed 30 minutes to generate ideas. The variable of interest was the number ol different ideas proposed by the group. The results. classified by type of group (factor $A$ ) and sizc of group (factor $B$ ), were:
+
+$$
+\begin{array}{cccccc} 
+& & \text { Factor B (size of group) } \\
+ & \begin{array}{c}
+\text { Factor A } \\
+\text { (type of group) }
+\end{array} & \begin{array}{c}
+j=1 \\
+\text { Two }
+\end{array} & \begin{array}{c}
+j=2 \\
+\text { Three }
+\end{array} & \begin{array}{c}
+j=3 \\
+\text { Four }
+\end{array} & \begin{array}{c}
+j=4 \\
+\text { Five }
+\end{array} \\
+\hline i=1 & \text { Agribusiness executives } & 18 & 22 & 31 & 32 \\
+i=2 & \text { Agribusiness scientists } & 15 & 23 & 29 & 33
+\end{array}
+$$
+
+> - (1). Plot the data. Does it appear that interaction effects are present? Does it appear that factor $A$ and factor $B$ main effects are present? Discuss.
+- (2). Obtain the ANOVA table.
+- (3). Conduct separate tests for type of group and size of group main effects.  In each test, use level of significance $\alpha=.01$ and state the alternatives, decision rule, and conclusion. 
+- (4). Make all pairwise comparisons among type of group and size of group; use the Bonferroni procedure with a 90 percent family confidence coefficient. State your findings.
+- (5). Obtain confidence intervals for $D_{1}=\mu_{.2}-\mu_{.1}, D_{2}=\mu_{.3}-\mu_{.2}$, and $D_{3}=\mu_{.4}-\mu_{.3}$; use the Bonferroni procedure with a 95 percent family confidence coefficient. State your findings.
+- (6). Is the Bonferroni procedure used in part (5) the most efficient one here? Explain.
+- (7). It is desired to estimate $\mu_{14} .$. Obtain a point estimate of $\mu_{14}$, and Construct a 99 percent confidence interval for $\mu_{14}$. Interpret your interval estimate. 
+- (8). Conduct the Tukey test for additivity: use $\alpha=.01$. State the alternatives, decision rule, and conclusion. If the additive model is not appropriate, what might you do?
+
