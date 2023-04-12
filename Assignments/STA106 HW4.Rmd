@@ -1,0 +1,53 @@
+---
+title: "STA106 Homework 4"
+author: 
+output:
+  html_document:
+    number_sections: true
+    code_folding: hide
+    toc: yes
+    toc_float: yes
+---
+
+<style type="text/css">
+  body{
+  font-size: 12pt;
+}
+</style>
+  
+```{r}
+# set global options
+knitr::opts_chunk$set(
+  echo = TRUE, # show code 
+  warning = FALSE,  
+  message = FALSE
+  
+) 
+```
+ 
+# Case Study. {-}
+
+> **Winding speeds.** In a completely randomized design to study the effect of the speed of winding thread (1: slow; 2: normal; 3: fast; 4: maximum) onto 75-yard spools, 16 runs of 10,000 spools each were made at each of the four winding speeds. The response variable is the number of thread breaks during the production run. Since the responses are counts, the researcher was concerned about the normality and equal variances assumptions of ANOVA model. 
+
+The dataset used in this question is "windingspeed.txt".
+
+* Column 1: counts
+* Column 2: speed of winding thread (1: slow; 2: normal; 3: fast; 4: maximum)
+* Column 3: runs 1-16
+
+
+
+> (1) State the ANOVA model assumptions, and your strategy to verify whether or not the data meet those assumptions.
+(2) To study whether or not the error variances are equal in a graphical way. What are your findings?
+(3) To study whether or not the error variances are equal using formal tests. State the alternatives. decision rule, and conclusion. What are your findings? Are your results consistent with the diagnosis in part (2)?
+(4) To study whether or not the normality assumption is met.
+(5) Summarize your findings in (1)-(4) about whether the ANOVA assumptions are met.  
+
+> Regardless of your conclusions in (5), practice with transformations.
+
+> (6) For each winding speed, calculate $\bar{Y}_{i}$, and $s_{i} .$ Examine the relation and determine the transformation that is most appropriate here. What do you conclude?
+(7) Use the Box-Cox procedure to find an appropriate power transformation of $Y$. first adding the constant $1$ to each $Y$ observation. Does $\lambda=0 .$ a logarithmic transformation appear to be reasonable based on the Box-Cox procedure?
+(8) The researcher decided to apply the logarithmic transformation $Y^{\prime}=\log _{10} Y$ and examine its effectiveness. Obtain the transformed response data. fit ANOVA model. and obtain the residuals.
+(9) Test whether the ANOVA model assumptions are met in the transformed data. What are your findings about the effectiveness of the transformation?
+
+ 
