@@ -1,0 +1,63 @@
+---
+title: "STA106 Homework 3"
+author: 
+output:
+  html_document:
+    number_sections: true
+    code_folding: hide
+    toc: yes
+    toc_float: yes
+---
+
+<style type="text/css">
+  body{
+  font-size: 12pt;
+}
+</style>
+  
+```{r}
+# set global options
+knitr::opts_chunk$set(
+  echo = TRUE, # show code 
+  warning = FALSE,  
+  message = FALSE
+  
+) 
+```
+ 
+# Case Study. {-}
+
+> **Productivity improvement.** An economist compiled data on productivity improvements last year for a sample of firms producing electronic computing equipment. The firms were classified according to the level of their average expenditures for research and development in the past three years (low, moderate, high). The results of the study follow (productivity improvement is measured on a scale from 0 to 100 ). Assume that ANOVA model (16.2) is appropriate.
+
+$$
+\begin{array}{llccccccccccc} 
+& & \boldsymbol{j} \\
+\boldsymbol{i} & & \mathbf{1} & \mathbf{2} & \mathbf{3} & \mathbf{4} & \mathbf{5} & \mathbf{6} & \mathbf{7} & \mathbf{8} & \mathbf{9} & \mathbf{1 0} & \mathbf{1 1} & \mathbf{1 2} \\
+\hline 1 & \text { Low } & 7.6 & 8.2 & 6.8 & 5.8 & 6.9 & 6.6 & 6.3 & 7.7 & 6.0 & & & \\
+2 & \text { Moderate } & 6.7 & 8.1 & 9.4 & 8.6 & 7.8 & 7.7 & 8.9 & 7.9 & 8.3 & 8.7 & 7.1 & 8.4 \\
+3 & \text { High } & 8.5 & 9.7 & 10.1 & 7.8 & 9.6 & 9.5 & & & & & &
+\end{array}
+$$
+
+
+> (1) Suppose a priori, the researcher wants to estimate the mean productivity improvement for firms with high research and developme expenditures levels: use a 95 percent confidence interval. Interpret your interval estimate. 
+(2) Suppose a priori, the researcher wants to estimate $D=\mu_{2}-\mu_{1}$: use a 95 percent confidence interval. Interpret your interval estimate. 
+(3) Suppose a priori, the researcher wants to test for all pairs of factor level means whether or not they differ. Try all appropriate procedures, which one is most efficient?  Use the most efficient procedure to conduct the tests, with $\alpha=.05 .$ Set up groups of factor levels whose means do not differ.
+(4) The sample sizes for the three factor levels are proportional to the population sizes. Suppose a priori, the economist wishes to estimate the mean productivity gain last year for all firms in the population. Estimate this overall mean productivity improvement with a 95 percent confidencc interval.
+(5) Choose the most efficient procedure, obtain confidence intervals for the following comparisons with 90 percent family contidence coefticient:
+$$
+\begin{array}{ll}
+D_{1}=\mu_{3}-\mu_{2} & D_{3}=\mu_{2}-\mu_{1} \\
+D_{2}=\mu_{3}-\mu_{1} & L_{1}=\frac{\mu_{1}+\mu_{2}}{2} -\mu_{3}
+\end{array}
+$$ Interpret your results and describe your findings.
+(6) Suppose that the sample sizes have not yet been determined but it has been decided to use the same number of firms for each research and developme expenditures levels. Assume that a reasonable planning value for the error standard deviation is $\sigma=0.5$; the range of the treatment means is $2$; the $\alpha$ risk is to be controlled at .01. What would be the required sample sizes if differences in the mean productivity improvement for different research and developme expenditures levels are to be detected with probability .80?
+(7) If the sample sizes determined in part (6) were employed, what would be the power of the test for treatment mean differences when $\mu_{1}=7, \mu_{2}=8$, and $\mu_{3}=9 ?$
+(8) Suppose primary interest is in estimating the two patirwise comparisons:
+$$
+L_{1}=\mu_{1}-\mu_{2} \quad L_{2}=\mu_{3}-\mu_{2}
+$$
+What would be the required sample sizes be if the precision of each comparison is to be $\pm 0.5$, using the most efficient multiple comparison procedure with a 95 percent family confidence coefficient?
+
+
+ 
