@@ -1,0 +1,176 @@
+---
+title: "Lecture notes"
+---
+
++ Chapter 1: Introduction to the Design of Experimental and Observational Studies
+  + Motivations
+  + Types of Scientific Studies
+  + Basic Terminology
+  + Most Common Designs of Scientific Studies
+```{r, echo=FALSE, out.width = '800px', out.height = '400px', results='asis'}
+cat('<embed src="./Lecture notes/Chapter 1.pdf" 
+    type="application/pdf" 
+    width="100%" height="400px" />')
+```
+  
++ Chapter 2: Single-Factor Studies
+  + Single-Factor ANOVA Model
+```{r, echo=FALSE, out.width = '800px', out.height = '400px', results='asis'}
+cat('<embed src="./Lecture notes/Chapter 2_1.pdf" 
+    type="application/pdf" 
+    width="100%" height="400px" />')
+```
+
+  + Analysis of Variance 
+```{r, echo=FALSE, out.width = '800px', out.height = '400px', results='asis'}
+cat('<embed src="./Lecture notes/Chapter 2_2.pdf" 
+    type="application/pdf" 
+    width="100%" height="400px" />')
+```
+
+  + F Test for Equality of Factor Level Means 
+```{r, echo=FALSE, out.width = '800px', out.height = '400px', results='asis'}
+cat('<embed src="./Lecture notes/Chapter 2_3.pdf" 
+    type="application/pdf" 
+    width="100%" height="400px" />')
+```
+
+  + Analysis of Factor Level Means 
+```{r, echo=FALSE, out.width = '800px', out.height = '400px', results='asis'}
+cat('<embed src="./Lecture notes/Chapter 2_4.pdf" 
+    type="application/pdf" 
+    width="100%" height="400px" />')
+```
+
+  + Planning of Sample Size
+```{r, echo=FALSE, out.width = '800px', out.height = '400px', results='asis'}
+cat('<embed src="./Lecture notes/Chapter 2_5.pdf" 
+    type="application/pdf" 
+    width="100%" height="400px" />')
+```
+
++ Chapter 3: ANOVA Diagnostics and Remedial Measures
+  + ANOVA Model Assumptions
+```{r, echo=FALSE, out.width = '800px', out.height = '400px', results='asis'}
+cat('<embed src="./Lecture notes/Chapter 3_1.pdf" 
+    type="application/pdf" 
+    width="100%" height="400px" />')
+```
+
+  + Check assumptions 
+```{r, echo=FALSE, out.width = '800px', out.height = '400px', results='asis'}
+cat('<embed src="./Lecture notes/Chapter 3_2.pdf" 
+    type="application/pdf" 
+    width="100%" height="400px" />')
+```
+
+` + Remedies and concerns about assumption violations
+```{r, echo=FALSE, out.width = '800px', out.height = '400px', results='asis'}
+cat('<embed src="./Lecture notes/Chapter 3_3.pdf" 
+    type="application/pdf" 
+    width="100%" height="400px" />')
+```
+ 
+
++ Chapter 4: Two-Factor Studies with Equal Sample Sizes
+  + Two-Way ANOVA Model
+```{r, echo=FALSE, out.width = '800px', out.height = '400px', results='asis'}
+cat('<embed src="./Lecture notes/Chapter 4_1.pdf" 
+    type="application/pdf" 
+    width="100%" height="400px" />')
+```
+
+  + Analysis of Variance
+```{r, echo=FALSE, out.width = '800px', out.height = '400px', results='asis'}
+cat('<embed src="./Lecture notes/Chapter 4_2.pdf" 
+    type="application/pdf" 
+    width="100%" height="400px" />')
+```
+
+  + Tests for Interaction effects and main effects
+```{r, echo=FALSE, out.width = '800px', out.height = '400px', results='asis'}
+cat('<embed src="./Lecture notes/Chapter 4_3.pdf" 
+    type="application/pdf" 
+    width="100%" height="400px" />')
+```
+
+  + Analysis of Factor A and B Main Effects (When Factors Do Not Interact)
+```{r, echo=FALSE, out.width = '800px', out.height = '400px', results='asis'}
+cat('<embed src="./Lecture notes/Chapter 4_4.pdf" 
+    type="application/pdf" 
+    width="100%" height="400px" />')
+```
+
+  + Analysis of Treatment Means When Interactions Are Present
+```{r, echo=FALSE, out.width = '800px', out.height = '400px', results='asis'}
+cat('<embed src="./Lecture notes/Chapter 4_5.pdf" 
+    type="application/pdf" 
+    width="100%" height="400px" />')
+```
+
+  
++ Chapter 5: Two-Factor Studies with One Case Per Treatment
+  + Two-Way ANOVA Model without Interaction
+```{r, echo=FALSE, out.width = '800px', out.height = '400px', results='asis'}
+cat('<embed src="./Lecture notes/Chapter 5_1.pdf" 
+    type="application/pdf" 
+    width="100%" height="400px" />')
+```
+
+  + Analysis of Variance
+```{r, echo=FALSE, out.width = '800px', out.height = '400px', results='asis'}
+cat('<embed src="./Lecture notes/Chapter 5_2.pdf" 
+    type="application/pdf" 
+    width="100%" height="400px" />')
+```
+
+  + Test for Factor A and B Main Effects
+```{r, echo=FALSE, out.width = '800px', out.height = '400px', results='asis'}
+cat('<embed src="./Lecture notes/Chapter 5_3.pdf" 
+    type="application/pdf" 
+    width="100%" height="400px" />')
+```
+
+  + Multiple Comparison Procedures
+```{r, echo=FALSE, out.width = '800px', out.height = '400px', results='asis'}
+cat('<embed src="./Lecture notes/Chapter 5_4.pdf" 
+    type="application/pdf" 
+    width="100%" height="400px" />')
+```
+
+  + Tukey's test
+```{r, echo=FALSE, out.width = '800px', out.height = '400px', results='asis'}
+cat('<embed src="./Lecture notes/Chapter 5_5.pdf" 
+    type="application/pdf" 
+    width="100%" height="400px" />')
+```
+
+  + Randomized Complete Block Designs
+```{r, echo=FALSE, out.width = '800px', out.height = '400px', results='asis'}
+cat('<embed src="./Lecture notes/Chapter 5_6.pdf" 
+    type="application/pdf" 
+    width="100%" height="400px" />')
+```
+
++ Chapter 6: Linear Regression Approach to ANOVA
+  + Regression Formulation to Single-Factor Studies
+```{r, echo=FALSE, out.width = '800px', out.height = '400px', results='asis'}
+cat('<embed src="./Lecture notes/Chapter 6_1.pdf" 
+    type="application/pdf" 
+    width="100%" height="400px" />')
+```
+
+  + Linear Regression Formulation to Two-Factor Studies
+```{r, echo=FALSE, out.width = '800px', out.height = '400px', results='asis'}
+cat('<embed src="./Lecture notes/Chapter 6_2.pdf" 
+    type="application/pdf" 
+    width="100%" height="400px" />')
+```
+  
+  + Analysis of Covariance Model (ANOCOVA)
+```{r, echo=FALSE, out.width = '800px', out.height = '400px', results='asis'}
+cat('<embed src="./Lecture notes/Chapter 6_3.pdf" 
+    type="application/pdf" 
+    width="100%" height="400px" />')
+```
+  

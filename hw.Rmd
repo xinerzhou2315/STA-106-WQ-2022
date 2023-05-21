@@ -1,0 +1,11 @@
+---
+title: "Chapter Homework"
+---
+
++ [Assignment 1](./Assignments/STA106-HW1.html)
++ [Assignment 2](./Assignments/STA106-HW2.html)
++ [Assignment 3](./Assignments/STA106-HW3.html)
++ [Assignment 4](./Assignments/STA106-HW4.html)
++ [Assignment 5](./Assignments/STA106-HW5.html)
++ [Assignment 6](./Assignments/STA106-HW6.html)
+  

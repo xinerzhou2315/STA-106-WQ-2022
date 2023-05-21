@@ -1,0 +1,87 @@
+---
+title: "STA106 Homework 5"
+author: 
+output:
+  html_document:
+    number_sections: true
+    code_folding: hide
+    toc: yes
+    toc_float: yes
+---
+
+<style type="text/css">
+  body{
+  font-size: 12pt;
+}
+</style>
+  
+```{r}
+# set global options
+knitr::opts_chunk$set(
+  echo = TRUE, # show code 
+  warning = FALSE,  
+  message = FALSE
+  
+) 
+```
+ 
+# Case Study. {-}
+
+> **Disk drive service.** The statf of a service center for electronic equipment includes three technicians who specialize in repairing three widely used makes of disk drives for desktop computers. It was desired to study the effects of tecinician (factor $A$ ) and make of disk drive (factor $B$ ) on the service time. The data that follow show the number of minutes required to complete the repair job in a study where each technician was randomly assigned to five jobs on each make of disk drive.
+
+ 
+The dataset used in this question is "disk drive service.txt".
+
+* Column 1: the number of minutes (outcome)
+* Column 2: i (factor A levels)
+* Column 3: j (factor B levels)
+* Column 4: k
+
+
+
+$$
+\begin{array}{ccccc} 
+& & \text { Factor } B \text { (make of drive) } \\
+\begin{array}{c}
+\text { Factor } A \\
+\text { (technician) }
+\end{array} & \begin{array}{l}
+ \\
+\end{array} & \begin{array}{c}
+j=1 \\
+\text { Make } 1
+\end{array} & \begin{array}{c}
+j=2 \\
+\text { Make } 2
+\end{array} & \begin{array}{c}
+j=3 \\
+\text { Make } 3
+\end{array} \\
+\hline i=1 & \text { Technician 1 } & 62 & 57 & 59 \\
+& & 48 & 45 & 53 \\
+& & \ldots & \ldots & \ldots \\
+& & 69 & 44 & 47 \\
+i=2 & \text { Technician 2 } & 51 & 61 & 55 \\
+& & 57 & 58 & 58 \\
+& & \ldots & \ldots & \ldots \\
+& & 39 & 51 & 49 \\
+i=3 & \text { Technician 3 } & 59 & 58 & 47 \\
+& & 65 & 63 & 56 \\
+& & \ldots & \ldots & \ldots \\
+& & 70 & 60 & 50
+\end{array}
+$$
+
+
+> - (1) Compute the least squares estimates for $\mu_{\cdot \cdot}, \alpha_{i}, \beta_{j}, ( \alpha \beta )_{i j}$.
+- (2) Draw an interaction plot based on the estimated treatment means. Comment on the plot in terms of interaction effects, factor A and B main effects.
+- (3) Obtain the ANOVA table. 
+- (4) Test whether or not interaction effects are present at 0.01 significance level. You need to state the null and alternative hypotheses, compute the test statistic, state the decision rule and make your conclusion.
+- (5) Test whether or not main effects for technician and make of drive are present. Use $\alpha=.01$ in each case and state the alternatives, decision rule, and conclusion. Is it meaningful here to test for main factor effects? Explain.
+- (6) Do the results in parts (4) and (5) confirm your graphic analysis in part (2)?
+More detailed analyses:
+- (7) Estimate $\mu_{11}$ with a 99 percent confidence interval. Interpret your interval estimate.
+- (8) Estimate $D=\mu_{22}-\mu_{21}$ with a 99 percent confidence interval. Interpret your interval estimate.
+- (9) The nature of the interaction effects is to be studied by making, for each technician, all three pairwise comparisons among the disk drive makes in order to identify, if possible, the make of disk drive for which the technician's mean service time is lowest. The family confidence coefficient for each set of three pairwise comparisons is to be 95 percent. Use the Bonferroni procedure to make all required pairwise comparisons. Summarize your findings.
+- (10) The service center currently services 30 disk drives of each of the three makes per week, with each technician servicing 10 machines of each make. Estimate the expected total amount of service time required per week to service the 90 disk drives; use a 99 percent confidence interval.
+ 

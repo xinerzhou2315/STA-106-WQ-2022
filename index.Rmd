@@ -1,0 +1,13 @@
+---
+title: "Syllabus"
+---
+
+[\faIcon{book} Course description at UC Davis](https://statistics.ucdavis.edu/expanded-descriptions/106)
+
+```{r, echo=FALSE, out.width = '800px', out.height = '1200px', results='asis'}
+cat('<embed src="STA106 Syllabus WQ 2022.pdf" 
+    type="application/pdf" 
+    width="100%" height="1200px" />')
+```
+ 
+ 
